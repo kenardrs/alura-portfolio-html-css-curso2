@@ -12,36 +12,34 @@ body{
     color: #F6F6F6;
 }
 
-/* .cabecalho {
-    position: absolute;
-    width: 299px;
-    height: 29px;
-    left: 360px;
-    top: 65px;
+.cabecalho {
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu {
     display: flex;
-    align-items: center;
+    gap: 80px;
 }
 
 .cabecalho__menu__link {
-    font-family: 'Montserrat';
-    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-} */
+    color: #22D4FD;
+    text-decoration: none;
+} 
 
 .titulo-destaque {
     color: #22D4FD;
 }
 
 .apresentacao{
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .apresentacao__conteudo{
     width: 615px;
     display: flex;
